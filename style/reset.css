@@ -1,0 +1,37 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--texto);
+}
+
+:root {
+    --fundo-pagina: rgb(54, 56, 77);
+    --fundo-card: rgb(255, 255, 255);
+    --titulo-e-label: rgb(33, 39, 65);
+    --texto: rgb(39, 38, 54);
+    --botao-ativado: linear-gradient(to right, rgb(254, 82, 122), rgb(255, 105, 58));
+    --borda: rgb(42, 40, 51);
+    --botao: rgb(35, 39, 66);
+    --input-required-borda: rgb(190, 127, 122);
+    --input-required-fundo: rgb(255, 232, 230);
+    --required-texto: rgb(235, 113, 102);
+    --branco: rgb(255, 255, 255);
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--fundo-pagina);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    overflow-x: hidden;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="../style/style.css">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+
+  <main class="newsletter">
+
+    <div class="newsletter_card">
+ 
+      <section class="section_img">
+
+        <div class="section_img"></div>
+
+      </section>
+      
+      <section class="newsletter_card_report">
+
+        <div class="newsletter_card_report_description">
+          <h1 class="description_title">Stay updated!</h1>
+          <p class="description">Join 60,000+ product managers receiving monthly updates on:</p>
+          
+          <ul class="list">
+            <li class="items"><img src="../assets/images/icon-list.svg" alt="icon-list"> Product discovery and building what matters</li>
+            <li class="items"><img src="../assets/images/icon-list.svg" alt="icon-list"> Measuring to ensure updates are a success</li>
+            <li class="items"><img src="../assets/images/icon-list.svg" alt="icon-list"> And much more!</li>
+          </ul>
+        </div>
+
+        <form class="newsletter_card_form" action="../page/success-active.html">
+          <div class="newsletter_card_form_text">
+            <label class="newsletter_card_form_label" for="email">Email address</label>
+            <span id="text_error" class="label_required"></span>
+          </div>
+            <input id="email" class="newsletter_card_form_input" type="text" placeholder="email@company.com">
+          <button id="btn" class="newsletter_card_form_btn" type="submit">Subscribe to monthly newsletter</button>
+        </form>
+
+      </section>
+    </div>
+
+  </main>
+
+  <script src="../js/script.js"></script>
+  
+</body>
+</html>
+<!-- <div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  Coded by <a href="#">Your Name Here</a>.
+</div> -->
